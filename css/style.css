@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Shizuru&display=swap');
+@import 'variables.css';
+@import "pages/catalog.css";
+@import "pages/form.css";
+@import "pages/main.css";
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+
+    display: flex;
+    justify-content: flex-end;
+    margin:0 auto;
+    max-width: 1440px;
+    min-height: 700px;
+    align-items: center;
+}
+.header__screen
+{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    min-height: 696px;
+    width: 100%;
+}
+.header__logo
+{
+    width: 100%;
+    height: auto;
+}
+.header__logo img
+{
+    margin-top: 55px;
+
+}
+.header__heading
+{
+    margin-left:80px;
+}
+.header__heading h1
+{
+    max-width: 414px;
+    min-height: 120px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.header__heading p
+{
+    max-width: 283px;
+    min-height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.header__heading a
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 244px;
+    min-height: 54px;
+    background: #68B738;
+    text-decoration: none;
+}
+.header__heading span
+{
+    max-width: 192px;
+    min-height: 26px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.header__menu
+{
+    width: 100%;
+    height: auto;
+    background: url("../img/index-background-desktop.png") no-repeat;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.header__main-menu
+{
+    display: flex;
+    gap: 32px;
+    margin-top: 70px;
+    max-width: 478px;
+    min-height: 40px;
+}
+.header__main-menu a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header__product
+{
+    position: relative;
+    right: 218px;
+    margin-top: 40px;
+}
+.header__product img
+{
+width: 100%;
+    height: auto;
+}
+.container
+ {
+     margin: 0 auto;
+     max-width: 1330px;
+     width: 100%;
+     height: auto;
+ }
+.main__advantages
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+    max-width: 1220px;
+    height: 380px;
+}
+
+.main__catalog-loss
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    max-width: 570px;
+    min-height: 374px;
+    background: #F2F2F2;
+}
+.main__catalog-top
+{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    align-self: start;
+}
+.main__catalog-top img
+{
+width: 100%;
+    height: auto;
+}
+.main__catalog-top p
+{
+    margin-left: 60px;
+    max-width: 164px;
+    min-height: 36px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.main__catalog-middle
+{
+    margin-top: 40px;
+    max-width: 467px;
+    min-height: 72px;
+}
+.main__catalog-bottom
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-self: start;
+    max-width: 170px;
+   min-height: 38px;
+    margin-bottom: 60px;
+}
+.main__catalog-bottom a
+{
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.main__catalog-bottom img
+{
+    margin-left: 30px;
+    width: 32px;
+    height: 10px;
+}
+.main__catalog-mass
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    max-width: 570px;
+    min-height: 374px;
+    background: #F2F2F2;
+}
+.main__section
+{
+    max-width: 1220px;
+    height: auto;
+    margin-top: 70px;
+}
+.main__instruction-top
+{
+    margin-bottom: 30px;
+}
+.main__instruction-top h2
+{
+    max-width: 375px;
+    min-height: 60px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
