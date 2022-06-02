@@ -270,11 +270,8 @@ z-index: 3;
 {
     max-width: 245px;
     min-height: 72px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #444444;
 }
 .main__instruction-card-bottom
@@ -294,5 +291,159 @@ z-index: 3;
     line-height: 280px;
     text-align: center;
     color: #F2F2F2;
+}
+.main__before-after
+{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 656px;
+    border: 1px solid red;
+}
+.main__before-after-top
+{
+    max-width: 1220px;
+    width: 100%;
+    height: auto;
+border: 1px solid red;
+}
+.main__before-after-top h3
+{
+    max-width: 325px;
+    min-height: 60px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0.6;
+    text-align: center;
+    color: #000000;
+}
+.main__before-after-bottom
+{
+    width: 100%;
+min-height: 460px;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    gap: 92px;
+}
+.main__before-after-calculation
+{
+    max-width: 436px;
+    min-height: 317px;
+    border: 1px solid red;
+}
+.before-after-top
+{
+    max-width: 436px;
+    min-height: 96px;
 
+}
+.before-after-top p
+{
+
+    font-weight: 400;
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.before-after-middle
+{
+    margin-top: 70px;
+    min-height: 77px;
+    max-width: 436px;
+    display: flex;
+    gap:42px;
+}
+.before-after-card-mass
+{
+    min-width: 162px;
+    max-width: 162px;
+    min-height: 77px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.before-after-card-mass p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    position: relative;
+    top:25px
+}
+.before-after-card-mass span
+ {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 114px;
+     min-height: 50px;
+     font-size: 14px;
+     line-height: 1.4;
+     text-align: center;
+
+    background: #F2F2F2;
+     color: #444444;
+     position:relative;
+     top:24px;
+ }
+.before-after-card-days
+{
+    min-width: 162px;
+    max-width: 162px;
+    min-height: 77px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.before-after-card-days p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    position: relative;
+    top:25px
+}
+.before-after-card-days span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    min-height: 50px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+
+    background: #F2F2F2;
+    color: #444444;
+    position:relative;
+    top:24px;
+}
+.before-after-bottom
+{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    gap: 65px;
+}
+.before-after-bottom p
+{
+text-transform: uppercase;
+}
+.before-after-bottom span
+{
+    text-transform: uppercase;
+}
+.main__before-after-cat
+{
+    width: 690px;
+    height: 656px;
+    border: 1px solid red;
 }
