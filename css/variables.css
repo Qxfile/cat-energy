@@ -1,4 +1,9 @@
 :root {
-    --red: red;
+    --color:red;
+    --gg:blue;
+    --basic-green: #68B738;
+    --basic-white: #ffffff;
+    --basic-gray:#F2F2F2;
+    --special_dark-grey:#444444;
 }
 

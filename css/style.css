@@ -137,18 +137,16 @@ width: 100%;
 
 .main__catalog-loss
 {
+    padding: 50px 60px 60px 50px;
     display: flex;
     flex-flow: column;
     align-items: center;
     width: 100%;
     max-width: 570px;
-    min-height: 374px;
     background: #F2F2F2;
 }
 .main__catalog-top
 {
-    margin-top: 40px;
-    margin-left: 50px;
     display: flex;
     align-self: start;
 }
@@ -159,7 +157,7 @@ width: 100%;
 }
 .main__catalog-top p
 {
-    margin-left: 60px;
+
     max-width: 164px;
     min-height: 36px;
     font-weight: 400;
@@ -169,21 +167,23 @@ width: 100%;
     color: #000000;
 }
 .main__catalog-middle
-{
-    margin-top: 40px;
+{text-align: start;
     max-width: 467px;
     min-height: 72px;
+}
+.main__catalog-middle p
+{
+    display: flex;
+    align-self: start;
 }
 .main__catalog-bottom
 {
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    margin-left: 50px;
+
     align-self: start;
     max-width: 170px;
    min-height: 38px;
-    margin-bottom: 60px;
 }
 .main__catalog-bottom a
 {
@@ -292,12 +292,17 @@ z-index: 3;
     text-align: center;
     color: #F2F2F2;
 }
+.main__before-after-gray
+{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 462px;
+}
 .main__before-after
 {
     margin-top: 10px;
     width: 100%;
-    min-height: 656px;
-    margin-bottom: -200px;
+
 }
 .main__before-after-top
 {
@@ -328,12 +333,13 @@ min-height: 460px;
 }
 .main__before-after-calculation
 {
+    padding-top: 70px;
     max-width: 436px;
     min-height: 317px;
 }
 .before-after-top
 {
-    margin-top: 70px;
+
     max-width: 436px;
     min-height: 96px;
 
@@ -502,6 +508,10 @@ text-transform: uppercase;
 {
 display: flex;
     justify-content: center;
+}
+.footer-gray-line
+{
+    background: #F2F2F2;;
 }
 .footer
 {
