@@ -132,7 +132,6 @@ width: 100%;
     gap: 80px;
     margin-top: 80px;
     max-width: 1220px;
-    height: 380px;
 }
 
 .main__catalog-loss
@@ -149,6 +148,7 @@ width: 100%;
 {
     display: flex;
     align-self: start;
+    justify-content: flex-start;
 }
 .main__catalog-top img
 {
@@ -158,13 +158,15 @@ width: 100%;
 .main__catalog-top p
 {
 
-    max-width: 164px;
+    min-width: 206px;
+
     min-height: 36px;
     font-weight: 400;
     font-size: 36px;
     line-height: 36px;
     text-transform: uppercase;
     color: #000000;
+    margin-left: 62px;
 }
 .main__catalog-middle
 {text-align: start;
@@ -175,12 +177,14 @@ width: 100%;
 {
     display: flex;
     align-self: start;
+    max-width: 457px;
+    min-height: 72px;
 }
 .main__catalog-bottom
 {
     display: flex;
     align-items: center;
-
+    justify-content: flex-end;
     align-self: start;
     max-width: 170px;
    min-height: 38px;
@@ -464,7 +468,7 @@ text-transform: uppercase;
 .before-after-cat-slide-left
 {
     background: url("../img/before-desktop.png")no-repeat;
-    width: 50%;
+    width: 56%;
 
    height: 536px;
 
@@ -472,7 +476,7 @@ text-transform: uppercase;
 .before-after-cat-slide-right
 {
     background: url("../img/after-desktop.png")no-repeat;
-   width: 50%;
+   width: 44%;
     height: 536px;
 }
 .before-after-cat-slider
@@ -568,6 +572,7 @@ display: flex;
 {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 .footer-company p
 {
