@@ -330,7 +330,7 @@ z-index: 3;
 }
 .main__before-after-bottom
 {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
 min-height: 460px;
     background: #F2F2F2;
