@@ -3,6 +3,7 @@
 body
 {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .container
 {
@@ -11,7 +12,7 @@ body
 }
 .header-top
 {
-    margin-top: 70px;
+    margin-top: 55px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -151,6 +152,7 @@ margin-bottom: 20px;
     padding: 10px 53px 10px 53px;
     margin: 0;
     text-transform: uppercase;
+    line-height: 1.2;
 }
 .main__catalog-add-button
 {
@@ -290,16 +292,19 @@ margin-top: 90px;
 .main__product-table
 {
     width: 896px;
-    height: 72px;
-    border-top: 1px solid #CDCDCD;
-    border-bottom: 1px solid #CDCDCD;
+    height: 288px;
+
     gap: 20px;
     display: flex;
     align-items: center;
 }
 .main__product-table td
 {
-
+    border-bottom: 1px solid #CDCDCD;
+}
+.line-top
+{
+    border-top: 1px solid #CDCDCD;
 }
 .main__product
 {
