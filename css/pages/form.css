@@ -3,6 +3,7 @@
 body
 {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .container
 {
@@ -109,9 +110,9 @@ body
     padding: 12px 20px;
     border: 1px solid #E7E7E7;
     width: 100%;
+    font-family: 'Oswald';
     height: 52px;
     resize: none;
-    font: inherit
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -231,9 +232,10 @@ body
     line-height:1.4;
     color: #444444;
 }
-.main__form-data textarea
+.main__form-data input
 {
     padding: 12px 20px;
+    padding-right: 40px;
     border: 1px solid #E7E7E7;
     width: 506px;
     height: 52px;
@@ -248,6 +250,8 @@ body
 }
 .main__form-data img
 {
+
+
     position: relative;
     right: 38px;
 }
@@ -467,7 +471,7 @@ cursor: pointer;
 {
     display: flex;
     align-self: center;
-    margin-left: 80px;
+    margin-left: 105px;
 }
 .button__request
 {
