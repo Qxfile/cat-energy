@@ -293,12 +293,12 @@ margin-top: 90px;
 {
     width: 896px;
     height: 288px;
-
+    border-collapse: collapse;
     gap: 20px;
     display: flex;
     align-items: center;
 }
-.main__product-table td
+.main__product-table tr
 {
     border-bottom: 1px solid #CDCDCD;
 }
