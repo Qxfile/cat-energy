@@ -613,3 +613,17 @@ display: flex;
     line-height: 1.4;
     color: #444444;
 }
+@media (max-width: 1024px) {
+    .header__menu
+    {
+
+    }
+    .header__logo
+    {
+        display: flex;
+    }
+    .header__logo img
+    {
+        margin-left: ;
+    }
+}
