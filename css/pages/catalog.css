@@ -555,8 +555,79 @@ text-transform: uppercase;
     color: #444444;
     margin-right: 70px;
 }
+.block__product
+{
+    max-width: 	320px;
+    min-height: 130px;
+    width:100%;
+    display: none;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column;
+    border-top:1px solid #CDCDCD;
+    border-bottom: 1px solid #CDCDCD;
+}
 
-@media (min-width: 1024px) and (max-width: 10000px) {
+.block__product h3
+{
+    margin-top: 13px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.iksweb-mobile
+{
+    width: 100%;
+}
+.block__product tr
+{
+    width: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+
+}
+.name-product-mobile
+{
+    text-align: left;
+}
+.price-product-mobile
+{
+    text-align: right;
+}
+.block__product td
+{
+    margin-top: 13px;
+    width: 100px;
+}
+.button-mobile
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #68B738;
+    padding: -0px -20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.button-mobile p
+{
+    text-transform: uppercase;
+    color: white;
+}
+@media (min-width: 1150px) and (max-width: 10000px) {
     .tablet-invite-block {
         display: none;
     }
@@ -584,7 +655,7 @@ text-transform: uppercase;
     }
 
 }
-@media (max-width: 1024px)
+@media (max-width: 1150px)
 {
     .container
     {
@@ -594,22 +665,20 @@ text-transform: uppercase;
     }
     .header-top
     {
-        margin-left: 30px;
+
     }
     .header-main-menu
     {
-        margin-right: 50px;
     }
     .main__product-table
     {
-        margin-left: 30px;
         width: 708px;
         height: 556px;
 
     }
     .main__additional-products
     {
-        width: 1290px;
+
     }
     .main__product-table tr
     {
@@ -719,7 +788,7 @@ text-transform: uppercase;
     }
     .main__product
     {
-        margin-left: -30px;
+
     }
     .main__catalog-card{
         width: 324px;
@@ -790,7 +859,30 @@ text-transform: uppercase;
         margin-top: 80px;
     }
 }
+@media (max-width: 730px) {
+    .main__product
+    {
+        display: none;
+    }
+    .block__product
+    {
+        display: flex;
+    }
+    .main__product-list
+    {
+        gap: 0px;
+    }
+    .block__product:nth-child(n+1)
+    {
+        border-top: none;
+    }
+    .block__product:nth-last-child(2)
+    {
+        margin-bottom: 40px;
+    }
 
+
+}
 
     @media (max-width: 480px)
     {

@@ -691,6 +691,11 @@ margin-top: 90px;
         padding-left: 20px;
         max-width: 200px;
     }
+    .header-logo
+    {
+        background: url("../../icon/logo-tablet.svg");
+        background-repeat: no-repeat;
+    }
 
 }
 @media (max-width: 590px)
