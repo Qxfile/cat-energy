@@ -653,6 +653,10 @@ text-transform: uppercase;
     {
         margin-top: 80px;
     }
+    .container
+    {
+        padding: 0 30;
+    }
 
 }
 @media (max-width: 1150px)
@@ -660,8 +664,7 @@ text-transform: uppercase;
     .container
     {
         max-width: 1024px;
-        margin-right: 30px;
-        margin-left: 30px;
+
     }
     .header-top
     {
@@ -884,7 +887,7 @@ text-transform: uppercase;
 
 }
 
-    @media (max-width: 480px)
+    @media (max-width: 600px)
     {
         .header-top
         {
@@ -900,6 +903,10 @@ text-transform: uppercase;
             width: 33px;
             height: 37px;
             min-height: 0px;
+        }
+        .container
+        {
+            padding: 0;
         }
         .main__card-block-phone-line-catalog
         {
@@ -973,7 +980,8 @@ text-transform: uppercase;
         }
         .main__product-list
         {
-            gap: 40px;
+            margin-top: 40px;
+            gap: 10px;
         }
         .main__catalog-add-card
         {

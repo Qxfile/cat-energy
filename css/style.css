@@ -17,6 +17,10 @@ body{
     max-width: 1440px;
     min-height: 700px;
     align-items: center;
+    background: url("../img/index-background-desktop.png");
+    background-size: 720px 696px,100%;
+    background-position: calc(50% + 360px) center,center;
+}
 }
 .header__screen
 {
@@ -89,7 +93,6 @@ body{
 {
     width: 100%;
     height: auto;
-    background: url("../img/index-background-desktop.png") no-repeat;
     display: flex;
     flex-flow: column;
     align-items: center;

@@ -426,7 +426,7 @@ body
     height: auto;
     margin-top: 60px;
     display: flex;
-    gap:115px;
+    gap:20px 115px;
     flex-wrap: wrap;
 }
 .check
@@ -588,9 +588,9 @@ margin-top: 90px;
     {
         margin-top: 20px;
     }
-    .main
+    .main__button-additional
     {
-
+        margin-top: 30px;
     }
     header
     {
@@ -714,13 +714,11 @@ margin-top: 90px;
     }
     .container
     {
-        padding-left: 20px;
-        max-width: 280px;
+        padding:0px 10px;
         width: 100%;
     }
     .section__data
     {
-        padding-left: 20px;
         margin-top:0;
         margin: 0 auto;
     }
@@ -745,15 +743,26 @@ margin-top: 90px;
 
     .main__form-block
     {
-        max-width: 280px;
         width: 100%;
+
+        max-width: 500px;
         margin-top: 0px;
         margin-bottom: 40px;
         gap: 20px;
     }
+
+    .main__form-text-list
+     {
+
+         width: 100%;
+
+        margin-left: 0px;
+     }
     .section__data-comment
     {
         margin-top: -40px;
+        width: 100%;
+        max-width: 500px;
     }
     .main__form-text label
     {
@@ -810,22 +819,17 @@ margin-top: 90px;
     {
         font-size: 16px;
     }
-    .main__form-text-list
-    {
-        max-width: 280px;
-        margin: 0 auto;
-    }
+
     .container p
     {
         margin-left:0;
     }
     .main__from-button
     {
-        margin: 0 auto;
-        max-width: 280px;
+        max-width: 500px;
         width: 100%;
-
         min-height: 160px;
+        margin-left: 0px;
     }
     .custom-checkbox__label
     {
@@ -923,7 +927,7 @@ margin-top: 90px;
 
 html
 {
-    overflow-x: hidden;
+
 
 }
     .footer{
