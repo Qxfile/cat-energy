@@ -1132,6 +1132,7 @@ justify-content: start;
     }
     .main__block-text
     {
+        display: block;
         padding-left: var(--content-padding-tablet);
         padding-right: var(--content-padding-tablet);
         background-color: #EAEAEA;
