@@ -422,6 +422,10 @@ min-height: 460px;
     max-width: 436px;
     min-height: 317px;
 }
+.main__block-text
+{
+    display: none;
+}
 .before-after-top
 {
 
@@ -722,6 +726,7 @@ display: flex;
     {
         display: none;
     }
+
 .header-top
 {
     display: flex;
@@ -1332,6 +1337,13 @@ margin-left: 23px;
     {
         grid-template-columns: repeat(1,100%);
         gap: 0px;
+    }
+
+}
+@media (max-width: 335px) {
+    .header__heading p
+    {
+        margin-top: 40px;
     }
 
 }
