@@ -41,7 +41,7 @@ body
     display: none;
     background: url("../../icon-catalog/chert.svg");
     width: 24px;
-    height: 16px;
+    height: 19px;
     background-repeat: no-repeat;
 }
 .header-main-menu
@@ -557,7 +557,6 @@ text-transform: uppercase;
 }
 .block__product
 {
-    max-width: 	320px;
     min-height: 130px;
     width:100%;
     display: none;
@@ -661,6 +660,10 @@ text-transform: uppercase;
 }
 @media (max-width: 1150px)
 {
+    .header-main-menu a
+    {
+        font-size: 18px;
+    }
     .container
     {
         max-width: 1024px;
@@ -670,9 +673,7 @@ text-transform: uppercase;
     {
 
     }
-    .header-main-menu
-    {
-    }
+
     .main__product-table
     {
         width: 708px;
@@ -753,7 +754,6 @@ text-transform: uppercase;
     .main__map
     {
         margin-top: 0;
-        max-width: 1024px;
     }
     .footer__line
     {
@@ -873,6 +873,8 @@ text-transform: uppercase;
     }
     .main__product-list
     {
+        padding-left: var(--content-padding-mobile);
+        padding-right: var(--content-padding-mobile);
         gap: 0px;
     }
     .block__product:nth-child(n+1)
@@ -980,6 +982,8 @@ text-transform: uppercase;
         }
         .main__product-list
         {
+            padding-left: var(--content-padding-mobile);
+            padding-right: var(--content-padding-mobile);
             margin-top: 40px;
             gap: 10px;
         }

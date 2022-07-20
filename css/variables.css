@@ -15,6 +15,10 @@
     --mobile-sm-width: 320px;
 
 
+    --content-padding-form-desktop:110px;
+    --content-padding-desktop:40px;
     --content-padding-tablet:30px;
+    --content-padding-mobile:20px;
+    --content-padding-small-mobile:10px;
 }
 
