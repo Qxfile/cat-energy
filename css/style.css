@@ -988,6 +988,10 @@ justify-content: start;
     {
         display: none;
     }
+    .container-tablet
+    {
+        padding: 0px 20px;
+    }
     .main__instruction-top
     {
         padding-left: 0px;
@@ -996,14 +1000,13 @@ justify-content: start;
     }
     .main__section
     {
-        padding-left: var(--content-padding-tablet);
-        padding-right:var(--content-padding-tablet);
+        padding-left: var(--content-padding-mobile);
+        padding-right:var(--content-padding-mobile);
     }
     .header__block-mobile{
-        padding-left: var(--content-padding-tablet);
-        padding-right:var(--content-padding-tablet);
+        padding-left: var(--content-padding-mobile);
+        padding-right:var(--content-padding-mobile);
         display: flex;
-
     }
     .main__instruction-card p
     {
@@ -1048,6 +1051,7 @@ justify-content: start;
         width: 33px;
         height: 33px;
         min-height: 33px;
+        margin-right: 0px;
     }
     .main__instruction
     {
@@ -1109,7 +1113,26 @@ justify-content: start;
     }
     .main__catalog-loss
     {
-        padding:20px 20px 30px 30px;
+        padding:20px 20px 5px 20px;
+    }
+    .header__heading span
+    {
+        font-size: 14px;
+    }
+    .footer-company p
+    {
+        text-align: center;
+    }
+    .main__catalog-bottom
+    {
+        width: 100%;
+        max-width: 100%;
+        justify-content: start;
+        border-top: 1px solid #D9D9D9;
+    }
+    .main__catalog-bottom a
+    {
+        font-size: 16px;
     }
     .main__catalog-top img
     {
@@ -1139,8 +1162,8 @@ justify-content: start;
     .main__block-text
     {
         display: block;
-        padding-left: var(--content-padding-tablet);
-        padding-right: var(--content-padding-tablet);
+        padding-left: var(--content-padding-mobile);
+        padding-right: var(--content-padding-mobile);
         background-color: #EAEAEA;
         min-height: 330px;
     }
@@ -1159,7 +1182,7 @@ justify-content: start;
     .before-after-middle
     {
         width: 100%;
-        padding-right: var(--content-padding-tablet);
+        padding-right: var(--content-padding-mobile);
         padding-left: 0;
         margin: 0 auto;
     }
@@ -1167,6 +1190,7 @@ justify-content: start;
 
     .block-mobile-card
     {
+        margin-top: 15px;
         width: 100%;
         height: auto;
         justify-content: space-between;

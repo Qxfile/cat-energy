@@ -11,6 +11,7 @@ body
     max-width: 1225px;
     margin: 0 auto;
 }
+
 .header-top
 {
     margin-top: 55px;
@@ -67,14 +68,23 @@ body
 .main__catalog
 {
     margin-top: 75px;
+    padding-right: var(--content-padding-form-desktop);
+    padding-left: var(--content-padding-form-desktop);
 }
+
 .main__catalog h1
-{text-align: center;
+{
     max-width: 495px;
     min-height: 60px;
     font-size: 60px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
 
 
+    color: #000000;
 }
 .main__catalog-cards-list
 {
@@ -219,6 +229,7 @@ display: flex;
     align-items: center;
     background: var(--basic-white);
 }
+
 .main__card-block-phone-line:nth-child(5)
 {
     margin-top: 80px;
@@ -321,6 +332,8 @@ padding-bottom: -30px;
     display: flex;
 margin-top: 90px;
     gap: 80px;
+    padding-right: var(--content-padding-form-desktop);
+    padding-left: var(--content-padding-form-desktop);
 }
 .main__product-table
 {
@@ -626,12 +639,20 @@ text-transform: uppercase;
     text-transform: uppercase;
     color: white;
 }
+@media (max-width: 1456px) {
+    .main__card-block-phone-line:nth-child(4)
+    {
+        margin-top: 80px;
+    }
+
+}
 @media (min-width: 1150px) and (max-width: 10000px) {
     .tablet-invite-block {
         display: none;
     }
 }
 @media (max-width: 1257px) {
+    
     .main__card-block-phone-line:nth-child(4)
     {
         margin-top: 80px;
@@ -657,6 +678,10 @@ text-transform: uppercase;
         padding: 0 30;
     }
 
+}
+@media (max-width: 1131px){
+
+    
 }
 @media (max-width: 1150px)
 {
@@ -763,6 +788,19 @@ text-transform: uppercase;
 }
 @media (max-width: 971px){
 
+    .header-top
+    {
+        margin-top: 40px;
+    }
+    .header-logo
+    {
+        background: url("../../icon/logo-tablet.svg");
+        background-repeat: no-repeat;
+    }
+    .footer-company p
+    {
+        text-align: center;
+    }
     .main__card-block-phone-line:nth-child(3)
     {
         margin-top: 80px;
@@ -915,7 +953,7 @@ text-transform: uppercase;
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 104px;
+            height: 115px;
             border-top: 1px solid #EBEBEB;
         }
         .header__mobile-logo
@@ -939,12 +977,17 @@ text-transform: uppercase;
             margin-bottom: 41px;
             max-width: 296px;
             min-height: 36px;
-            font-size: 36px;
+            font-size: 32px;
         }
         .container
         {
             width: 100%;
             margin-left: 0px;
+        }
+        .main__catalog
+        {
+            padding-left: var(--content-padding-mobile);
+            padding-right: var(--content-padding-mobile);
         }
         .main__catalog-cards-list
         {
