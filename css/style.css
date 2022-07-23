@@ -85,6 +85,13 @@ body{
     font-size: 20px;
     font-family: 'Oswald';
     text-transform: uppercase;
+    margin-top: 10px;
+}
+.active-tablet
+{
+    border:  3px solid transparent;
+    border-bottom: 2px solid #68B738;
+    box-sizing: border-box;
 }
 .header__main-menu a:hover
 {
@@ -92,6 +99,19 @@ body{
     transition: opacity 0.25s;
 }
 .header__main-menu a:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+
+
+
+.header-main-menu a:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.header-main-menu a:active
 {
     opacity: 0.3;
     transition: opacity 0.25s;
@@ -217,10 +237,15 @@ body{
 }
 .header__main-menu a
 {
+    height: 30px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
+}
+.active
+{
+    border-bottom: 2px solid #FFFFFF;
 }
 .header__product
 {
@@ -316,7 +341,6 @@ width: 100%;
 }
 .main__catalog-bottom:hover .arrow
 {
-
     transform: translateX(10px);
 }
 .arrow
@@ -825,6 +849,29 @@ opacity: 0.6;
         display: flex;
         flex-direction: column;
     }
+    .header__heading a:hover
+    {
+        opacity: 0.8;
+        transition: opacity 0.25s;
+    }
+    .header__heading a:active
+    {
+        opacity: 0.6;
+        transition: opacity 0.25s;
+    }
+    .header__heading span
+    {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 0px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
     .header__block-tablet img
     {
         display: flex;
@@ -847,7 +894,11 @@ opacity: 0.6;
     {
         display: none;
     }
-
+.footer__line
+{
+    padding-left: var(--content-padding-tablet);
+    padding-right: var(--content-padding-tablet);
+}
 .header-top
 {
     display: flex;
@@ -1054,6 +1105,7 @@ justify-content: start;
     {
         font-size: 16px;
     }
+
 }
 
 
@@ -1188,13 +1240,22 @@ justify-content: start;
         max-width: 60px;
         min-height: 60px;
     }
+    .header-logo:hover
+    {
+        opacity: 0.6;
+        transition: opacity 0.25s;
+    }
+    .header-logo:active
+    {
+        opacity: 0.3;
+        transition: opacity 0.25s;
+    }
     .main__instruction-card
     {
         flex-direction: row;
         gap: 20px;
         margin-top: 0px;
     }
-
     .main__instruction-card-bottom
     {
         display: none;

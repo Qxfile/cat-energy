@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Shizuru&display=swap');
 @import "../variables.css";
 
+
 body
 {
     font-family: 'Oswald', sans-serif;
@@ -11,7 +12,62 @@ body
     max-width: 1225px;
     margin: 0 auto;
 }
+.active-tablet
+{
+    border:  3px solid transparent;
+    border-bottom: 2px solid #68B738;
+    box-sizing: border-box;
+}
+.header-logo:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.header-logo:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+.header__main-menu a:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.header__main-menu a:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
 
+
+.header-main-menu a:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.header-main-menu a:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+.header-button:hover
+{
+    transition: opacity 0.25s, color 1s;
+    background: #5EAA2F;
+}
+.header-button:active
+{
+    transition: opacity 0.25s, color 1s;
+    background: #5EAA2F;
+
+}
+.header-button-text:active
+{
+    cursor: pointer;
+    transition: opacity 0.2s, color 1s;
+    opacity: 0.3;
+
+}
 .header-top
 {
     margin-top: 55px;
@@ -167,6 +223,16 @@ margin-bottom: 20px;
     margin-bottom: 40px;
     text-decoration: none;
 }
+.main__catalog-button:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.main__catalog-button:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
 .main__big-catalog-button{
     background-color: var(--basic-green);
     max-width: 168px;
@@ -175,6 +241,16 @@ margin-bottom: 20px;
     margin-bottom: 130px;
     text-decoration: none;
 
+}
+.main__big-catalog-button:hover
+{
+    opacity: 0.6;
+    transition:opacity 0.25;
+}
+.main__big-catalog-button:active
+{
+    opacity: 0.3;
+    transition:opacity 0.25;
 }
 .main__catalog-button:nth-child(n+1)
 {
@@ -413,6 +489,16 @@ margin-top: 90px;
     color: var(--basic-white);
     text-align: center;
 }
+.button-product:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.button-product:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
 .button-product p
 {
     text-transform: uppercase;
@@ -503,6 +589,62 @@ margin-top: 90px;
     width: 30px;
 
     background: url("../../icon/icon_vkontakte.svg")
+}
+.footer-logo:hover
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
+}
+.footer-logo:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+
+.footer-vk:hover
+{
+    height: 22px;
+    width: 28px;
+    background: url("../../icon/green/icon_vkontakte.svg")no-repeat;
+}
+.footer-vk:active
+{
+    transition: opacity 0.2s;
+    opacity: 0.3;
+}
+.footer-inst:hover
+{
+    transition: background 0.2s;
+    background: url("../../icon/green/icon_instagram.svg")no-repeat;
+    background-size: 23px 23px;
+}
+.footer-inst:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+.footer-fb:hover
+{
+    width: 28px;
+    height: 33px;
+    background: url("../../icon/green/icon_facebook.svg")no-repeat;
+    background-size: 28px 32px;
+    transition: background 0.2s;
+}
+.footer-fb:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
+}
+.footer-company p:hover
+{
+    color: #68B738;
+    transition: color 0.25s;
+}
+.footer-company p:active
+{
+    opacity: 0.3;
+    transition: opacity 0.25s;
 }
 .footer-inst
 {
@@ -1245,5 +1387,7 @@ background: url("../../icon-catalog/icon_vkontakte (1).svg");
             width: 22px;
             height: 22px;
         }
+
+
 
     }

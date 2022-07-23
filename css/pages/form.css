@@ -157,6 +157,10 @@ header
     min-height: 200px;
     width: 100%;
 }
+.custom-checkbox:hover .custom-checkbox__indicator
+{
+    border: 1px solid #BABABA;
+}
 .section__data
 {
 
@@ -198,7 +202,12 @@ header
     justify-content: center;
     align-items: center;
 }
+.custom-checkbox:checked .custom-checkbox__label
+{
+    opacity: 0.6;
+    transition: opacity 0.25s;
 
+}
 .custom-checkbox input:checked + .custom-checkbox__indicator
 {
 
@@ -260,6 +269,7 @@ header
     align-items: center;
     margin-top: 75px;
 }
+
 .main__form-data label
 {
     text-transform: uppercase;
@@ -289,13 +299,17 @@ header
     text-transform: uppercase;
     color: #444444;
 }
+.main__form-data:focus
+{
+    color:red;
+}
+
 .main__form-data img
 {
-
-
     position: relative;
     right: 38px;
 }
+
 .main__comment
 {
     max-width: 182px;
@@ -434,7 +448,10 @@ header
 .custom-checkbox input:checked + .custom-checkbox__indicator .circle {
     opacity: 1;
 }
-
+.check:hover .check__box
+{
+    border: 1px solid #BABABA;
+}
 .main-container
 {
     width: 100%;
