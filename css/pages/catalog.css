@@ -844,6 +844,18 @@ text-transform: uppercase;
         width: 250px;
         max-width: 250px;
     }
+    .main__catalog-button:hover
+    {
+        opacity: 0.6;
+        transition: opacity 0.25s, color 1s;
+        background: #5EAA2F;
+    }
+    .main__catalog-button:active
+    {
+        opacity: 0.3;
+        transition: opacity 0.25s, color 1s;
+        background: #5EAA2F;
+    }
     .main__big-catalog-button
     {
         width: 250px;
